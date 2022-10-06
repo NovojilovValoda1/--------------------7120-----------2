@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Часть1
+      // задание1
+      let surename = "Вова";
+      let lastname = "Новожилов";
+      let work = "Официант";
+      let work2 = "Студент";
+      // задание2
+      let summ = "Меня зовут " + surename + lastname + "и я " + work;
+      // задание3 конкатенация
+      console.log(summ);
+      // интерполяция
+      let summ2 = `Меня зовут ${surename} ${lastname} и я ${work}`;
+      console.log(summ2);
+      // задание4
+      summ2 = summ2.toUpperCase();
+      console.log(summ2);
+      // задание5
+      summ2 = summ2.replace(/Официант/gi, "Студент");
+      console.log(summ2);
+      // задание6
+      let summ3 = summ2.slice(15, 26);
+      console.log(summ3);
+      // задание7
+      console.log(summ3.lastIndexOf("E"));
+      // задание8
+      console.log(summ2.length);
+      // Часть2
+      // задание1
+      let a = "строка";
+      let b = 243;
+      let c = true;
+      let d = null;
+      let i = undefined;
+      let f = {
+        name: "name",
+      };
+      let g = ["Мфссив"];
+      console.log(typeof a);
+      console.log(typeof b);
+      console.log(typeof c);
+      console.log(typeof d);
+      console.log(typeof i);
+      console.log(typeof f);
+      console.log(typeof g.length);
+    </script>
+  </body>
+</html>
